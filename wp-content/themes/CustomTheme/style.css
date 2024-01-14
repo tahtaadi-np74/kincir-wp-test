@@ -1,0 +1,112 @@
+/*
+Theme Name: CustomTheme
+Author: I Gusti Ngurah Tahta Adi Dharma Prabhawasana
+Author URI: https://tahta.vercel.app/
+Description: Custom theme.
+Version: 1.0
+*/
+
+/* Add CSS Here to Set a Custom Styling */
+
+/* Header */
+.site-branding {
+    display: flex;
+    justify-content: center;
+}
+
+.site-branding>h1>a {
+    color: #000;
+    font-size: 48px;
+    text-decoration: none;
+}
+
+.site-branding>h1>a:hover {
+    text-decoration: underline;
+}
+
+/* Main */
+main {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px
+}
+
+.portfolio {
+    width: calc(33.333% - 20px);
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #eaeaea;
+}
+
+.attachment-thumbnail {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.entry-title>a {
+    display: block;
+    color: #000;
+    font-size: 32px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.entry-title>a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+}
+
+.site-info {
+    display: flex;
+    justify-content: center;
+}
+
+/* Portfolio list item */
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.portfolio-item {
+    width: calc(33.333% - 20px);
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #eaeaea;
+}
+
+.portfolio-thumbnail img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.portfolio-title a {
+    display: block;
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 8px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.portfolio-description {
+    font-size: 16px;
+    line-height: 1.6;
+}
